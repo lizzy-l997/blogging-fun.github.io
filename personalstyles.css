@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@400;600&family=Quicksand:wght@400;600&family=Sansita+Swashed:wght@300;600&family=Titillium+Web:wght@300;600&display=swap");
+/*font-family: 'Atma', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Titillium Web', sans-serif;*/
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #9ea93f;
+  --secondary-color: #006d77;
+  --accent1-color: #48083b;
+  --accent2-color: #f9c80e;
+  --accent3-color: #7b3e19;
+  --accent4-color: #ff6f59;
+  --accent5-color: #3e8914;
+  --background-color: #ffffff;
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Sansita Swashed", cursive;
+  --paragraph-font: "Atma", cursive;
+  --quote-font: "Titillium Wed", sans-serif;
+  --comment-font: "Quicksand", sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above 
+  --headline-color-on-white: #F7B2B7;   /*headlines on a white background  
+  --headline-color-on-color: #DE639A;  /*headlines on a colored background 
+  --paragraph-color-on-white: #F7717D;  /*paragraph text on a white background  
+  --paragraph-color-on-color: #16001E;  /*paragraph text on a colored background 
+  --paragraph-background-color: #7F2982;
+  --nav-link-color: #DE639A;
+  --nav-background-color: #F7B2B7;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: black;*/
+}
+main {
+  background-color: #ffffff;
+  margin: 50px 50px 50px 25px;
+  border-color: #7b3e19;
+}
+body {
+  background-color: #9ea93f;
+}
+#pschurch-overveiw {
+  background-color: #7b3e19;
+  padding-bottom: 10px;
+}
+#pschurch-overveiw p {
+  color: #ff6f59;
+  padding: 10px 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#pschurch-overveiw h2 {
+  color: #f9c80e;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+.quote {
+  color: #006d77;
+  font-family: "Titillium Wed", sans-serif;
+}
+.quote mark {
+  color: #f9c80e;
+}
+.border {
+  border-color: #7b3e19;
+  border-width: 15px;
+  border-style: solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #48083b;
+  font-family: "Sansita Swashed", cursive;
+}
+p {
+  color: #3e8914;
+  font-family: "Atma", cursive;
+}
+a:link {
+  color: #006d77;
+  text-decoration: none;
+}
+a:hover {
+  color: #3e8914;
+  text-decoration: underline;
+  background-color: #ff6f59;
+}
+a:visited {
+  color: #48083b;
+  text-decoration: underline;
+}
+a:active {
+  color: #f9c80e;
+  text-decoration: none;
+}
